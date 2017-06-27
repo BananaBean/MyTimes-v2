@@ -1,0 +1,85 @@
+/* UNIVERSAL STYLINGS */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+}
+
+/* HEADER Section */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+  background-color: white;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid black;
+
+  border: blue 1px dotted;
+}
+
+/*
+display: flex;
+position: fixed;
+z-index: 5;
+background-color: black;
+border-bottom: 1px solid seashell;
+height: 69px;
+width: 100%;
+align-items: center;
+*/
+
+.logo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  color: MediumAquamarine;
+  margin: 10px;
+
+  border: green 1px dotted;
+}
+
+.logo span {
+  padding: 10px;
+}
+
+.menu {
+
+
+  border: green 1px dotted;
+}
+
+
+/* MAIN Section */
+
+main {
+  position: relative;
+  top: 80px;
+
+  border: 1px dotted red;
+}
+
+/* Large Column */
+
+
+/* Medium Column */
+
+
+/* Small Column */
+
+
+/* FOOTER Section */
+
+footer {
+  position: relative;
+  top: 80px;
+}
